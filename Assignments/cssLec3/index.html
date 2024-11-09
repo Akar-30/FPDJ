@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework: CSS Grid, Flexbox, and List Styling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        h2 {
+            color: #28A745;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Homework Assignment: CSS Grid, Flexbox, and Styling Lists</h1>
+    <nav>
+        <h2>Sections:</h2>
+        <ul>
+            <li><a href="./task1/grid-layout.html">CSS Grid Layout</a></li>
+            <li><a href="./task2/flexbox-navbar.html">Flexbox Layout</a></li>
+            <li><a href="./task3/styled-list.html">Styled List</a></li>
+        </ul>
+    </nav>
+    <div class="section">
+        <h2>Part 1: CSS Grid Layout</h2>
+        <p><strong>Objective:</strong> Create a web page layout using CSS Grid with the following sections: A header
+            that spans the entire width of the page, a sidebar on the left side that is 200px wide, a main content area
+            that takes up the remaining width, and a footer that spans the entire width of the page.</p>
+        <p><strong>Requirements:</strong> The layout should have a 10px gap between the grid items. The sidebar should
+            have a fixed width of 200px, while the main content area should be responsive and take up the rest of the
+            space. The header and footer should be full-width.</p>
+        <p><strong>Bonus:</strong> Add another section in your layout for "Related Articles" to the right of the main
+            content (use CSS Grid to achieve this).</p>
+    </div>
+
+    <div class="section">
+        <h2>Part 2: Flexbox Layout</h2>
+        <p><strong>Objective:</strong> Create a responsive navigation bar using Flexbox with the following elements: A
+            logo on the left side, three navigation links (Home, About, Contact) in the middle, and a search box aligned
+            to the right.</p>
+        <p><strong>Requirements:</strong> The navigation links should be evenly spaced horizontally. The search box
+            should align to the right side of the navbar. The navbar should collapse into a column layout on smaller
+            screens (under 600px width).</p>
+    </div>
+
+    <div class="section">
+        <h2>Part 3: Styling a List</h2>
+        <p><strong>Objective:</strong> Create a styled list with the following features: An unordered list
+            (<code>ul</code>) with at least 5 list items. Customize the bullet points by replacing them with an image or
+            a custom character. Add padding and a background color to each list item. When you hover over each list
+            item, change the background color and font style (e.g., italic or bold).</p>
+        <p><strong>Bonus:</strong> Create a second list (ordered list) and style the list numbers to have a different
+            font, size, and color than the list text.</p>
+    </div>
+
+    <div class="section">
+        <h2>Submission Requirements:</h2>
+        <ul>
+            <li><strong>Part 1 (CSS Grid):</strong> Create an HTML and CSS file (<code>grid-layout.html</code>,
+                <code>grid-layout.css</code>) for the grid layout.
+            </li>
+            <li><strong>Part 2 (Flexbox):</strong> Create an HTML and CSS file (<code>flexbox-navbar.html</code>,
+                <code>flexbox-navbar.css</code>) for the Flexbox navigation bar.
+            </li>
+            <li><strong>Part 3 (List Styling):</strong> Create an HTML and CSS file (<code>styled-list.html</code>,
+                <code>styled-list.css</code>) for the styled list.
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Resources to Review:</h2>
+        <ul>
+            <li><strong>CSS Grid:</strong> Review how to use <code>grid-template-columns</code>,
+                <code>grid-template-rows</code>, <code>grid-template-areas</code>, and <code>grid-gap</code>.
+            </li>
+            <li><strong>Flexbox:</strong> Review properties like <code>display: flex</code>,
+                <code>justify-content</code>, <code>align-items</code>, and <code>flex-direction</code>.
+            </li>
+            <li><strong>List Styling:</strong> Review how to style lists using properties like <code>list-style</code>,
+                <code>list-style-image</code>, <code>padding</code>, <code>background-color</code>, and hover effects.
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
